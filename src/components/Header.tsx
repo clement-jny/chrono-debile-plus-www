@@ -35,8 +35,7 @@ const Header = () => {
 
       <nav className='flex'>
         <Button variant='link' className='text-white' asChild>
-          {/* <Link href='/portfolio'>Portfolio</Link> */}
-          <a href='/products'>Products</a>
+          <a href='/stock'>Stock</a>
         </Button>
 
         {/* <Separator orientation='vertical' className='text-white' /> */}
