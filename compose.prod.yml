@@ -1,0 +1,13 @@
+services:
+  www_prod:
+    container_name: chrono-debile-plus-www_prod
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      context: .
+      target: prod
+    tty: true
+    ports:
+      - 4173:4173
+    volumes:
+      - .:/app
