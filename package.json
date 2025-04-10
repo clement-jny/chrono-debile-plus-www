@@ -3,6 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "bun": "1.2.9"
+  },
+  "author": "Clément Jny",
+  "description": "Chrono Debile Plus is a web application that provides a read-only platform for products stock and prices.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clement-jny/chrono-debile-plus-www.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
